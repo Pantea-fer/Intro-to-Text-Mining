@@ -16,6 +16,31 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Text Mining Motivation
 
+#### **Need for Text Mining**:
+
+The amount of data that we produce every day is truly astonishing. With the evolution of communication through social media, we generate tons and tons of data. Out of all of this generated data, only around $20\%$ are Structured and well formatted. The remaining of the data is Unstructured Data For instance, the bulk of emails we send, the text messages and the comments in social media are examples of Unstructured Data.
+These Unstructured data may be analyzed and mined in order to extract useful information. 
+
+
+#### What is "Text Mining" and where is it used? 
+
+Text Mining is basically the process of extracting meaningful information from natural language text. 
+
+A few examples of how we use text mining every day:
+
+* Auto-complete feature
+* Spam Detection
+* Predictive Typing
+* Spell Checker
+    
+####  Terminologies In Text Mining:
+
+**Tokenization: ** The process of splitting the whole data (corpus) into smaller chunks is known as tokenization. (i.e. sentences into words)
+
+**Remove Stop Words:** Stop words that are words that are very commonly used such as "although", "really", "from", etc. By removing such words in a language, we may focus on the important words instead.
+
+**Document Term Matrix or DTM:** A matrix containing the terms that appear in a collection of documents and the frequency of the terms, where rows represent the documents and columns represent the words (terms). 
+
 
 
 # Working with text data
